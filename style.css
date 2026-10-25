@@ -96,13 +96,19 @@ h1{
 }
 
 .leaderboard tbody tr.top-three:nth-child(1) td {
-  top: 0;
+  top: 41px;
 }
 
 .leaderboard tbody tr.top-three:nth-child(2) td {
-  top: 44px;
+  top: 91px;
 }
 
 .leaderboard tbody tr.top-three:nth-child(3) td {
-  top: 88px;
+  top: 141px;
+}
+
+.leaderboard thead th {
+  position: sticky;
+  top: 0px;
+  z-index: 15;
 }
